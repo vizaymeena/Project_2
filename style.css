@@ -32,7 +32,7 @@ body{
     flex-wrap: wrap;
     padding: 12px 0px;
     padding-right: 20px;
-    background-color: white;    
+    background-color: rgb(163, 137, 86);    
 }
 .navbar li .navbar2 {
     padding: 6px;
@@ -162,3 +162,121 @@ body{
     height: 100vh;
  }   
 
+ /* #service{
+    padding: 10%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    box-sizing: border-box;
+
+ } */
+
+ .dd{display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+   
+   
+    align-items: center;
+ }
+ .dd h1{
+    font-family: cursive;
+    display: flex;
+    width: 10rem; height: 4rem;
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+  }
+
+
+ .dd1{
+    padding: 10%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    box-sizing: border-box;
+
+ }
+ .box1{
+    
+    width: 30%;
+    height: auto;
+    display: flex;
+    display: inline;
+    flex-direction: column;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+.box2{
+
+   
+    width: 30%;
+    height: auto;
+    display: flex;
+    display: inline;
+    flex-direction: column;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+.box3{
+   
+    width: 30%;
+    height: auto;
+    display: flex;
+    display: inline;
+    flex-direction: column;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+.box1 p{
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+.box1 .iD{
+    padding-left: 6rem;
+}
+
+.box1 h4{
+    font-style: italic;
+    font-size: x-large;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+.box2 p{
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+.box2 .iW{
+    padding-left: 6rem;
+}
+.box2 h4{
+    font-style: italic;
+    font-size: x-large;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+.box3 p{
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+.box3 .iM{
+    padding-left: 6rem;
+}
+.box3 h4{
+    font-style: italic;
+    font-size: x-large;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
 }
  /* ++++++++++++++++++++++++++++++++ >> TOP HEAD STYLING STARTS HERE << ++++++++++++++++++++++++ */
 .vizay{
@@ -12,14 +12,17 @@ body{
     align-self: center;
     color:dimgray;
     font-style: italic;
-    text-shadow: 0px -2px 0.1px rgb(63, 61, 143);
+}
+.vizay:hover{
+    color: brown;
+    transition: 2s all ease;
 }
 #nav{
     width: 100vw;
     padding: 0px 15px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(199, 179, 179);
+    background-color: rgb(5, 3, 3);
     /* gap: 300px; */     /*--------->>Gap does not work when justify content space properties  already inserted */ 
 }
 
@@ -32,13 +35,13 @@ body{
     flex-wrap: wrap;
     padding: 12px 0px;
     padding-right: 20px;
-    background-color: rgb(163, 137, 86);    
+    background-color: rgb(6, 5, 3);    
 }
 .navbar li .navbar2 {
     padding: 6px;
-    color: rgb(74, 17, 159);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    border: 2px solid rgb(74, 17, 159);
+    border: 2px solid rgb(73, 72, 75);
     border-radius: 40px 20px 40px 20px;
 }
 .navbar li {
@@ -52,6 +55,7 @@ body{
     background-color: rgb(255, 0, 0);
     border: 1.5px solid rgb(0, 0, 0);
     border-radius: 20px 40px 20px 40px;
+    transition: 1s all ease;
     
     
 }                                                                      
@@ -59,15 +63,16 @@ body{
 
 #nav ul li .clhome{
     text-decoration: none;
-    border-radius: 50px 0px 50px 0px;
+    border-radius: 0px 30px 30px 0px;
     padding: 8px 10px;    
-    color: rgb(255, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 0px 50px 0px 50px;
-   border: 2px solid red;
+    color: rgb(237, 237, 242);
+    background-color: rgb(128, 15, 15);
+    /* border-radius: 0px 50px 0px 50px; */
+   border: 2px solid rgb(26, 0, 81);
 }
 #nav ul li .clhome:hover{ color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(199, 98, 20);
+    transition: 1s all ease;
 
 }
 
@@ -92,12 +97,13 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(https://wallpapers.com/images/high/bugatti-chiron-1920-x-1080-wallpaper-av7amqu5sf7vm3ji.webp);
+    background-image: url(https://nuvomagazine.com/wp-content/uploads/2022/01/Lexus-Electrified-Sport.jpg);
+    
      z-index: -1;
     
 }
 .bgcaropacity{
-    /* background-image: url(https://nuvomagazine.com/wp-content/uploads/2022/01/Lexus-Electrified-Sport.jpg); */
+    
     position:absolute;
    left: 0%;
    top: 0%;
@@ -137,6 +143,7 @@ body{
     color: white;
     background-color: black;
     border: white 3px solid;
+    transition: 1s all ease;
 
 } 
 
@@ -162,30 +169,37 @@ body{
     height: 100vh;
  }   
 
- /* #service{
-    padding: 10%;
+#service{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8%;
     box-sizing: border-box;
-
- } */
+}
+#service:hover{
+    background-color: rgb(66, 92, 108);
+    transition: 2s all ease;
+}
 
  .dd{display: flex;
     justify-content: center;
-    margin-top: 10rem;
-   
-   
+    margin-top: 2%;
+    padding-bottom: 10%;
     align-items: center;
  }
+.dd h1:hover{
+    background-color: rgb(125, 123, 120);
+    color:rgb(22, 118, 51);
+    border: 2px solid rgb(43, 145, 77);
+    transition: 0.9s all ease;
+    border-radius: 0px 30px 30px 0px;
+
+}
+
  .dd h1{
     font-family: cursive;
     display: flex;
+    border-radius: 30px 0px 0px 30px;
     width: 10rem; height: 4rem;
-    border: 1px solid green;
+    border: 2px solid rgb(38, 10, 90);
     align-items: center;
     justify-content: center;
     cursor: grab;
@@ -193,13 +207,13 @@ body{
 
 
  .dd1{
-    padding: 10%;
+    padding:8%;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8%;
+    gap: 6%;
     box-sizing: border-box;
 
  }
@@ -212,6 +226,14 @@ body{
     flex-direction: column;
     border: 1px solid black;
     flex-wrap: wrap;
+    border-radius: 4% 4% 4% 4%;
+   
+}
+.box1:hover{
+    background-color:burlywood;
+    transition: 1.5s all ease;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
 }
 .box2{
 
@@ -222,7 +244,14 @@ body{
     display: inline;
     flex-direction: column;
     border: 1px solid black;
+    border-radius: 4% 4% 4% 4%;
     flex-wrap: wrap;
+}
+.box2:hover{
+    background-color:burlywood;
+    transition: 1.5s all ease;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
 }
 .box3{
    
@@ -232,13 +261,21 @@ body{
     display: inline;
     flex-direction: column;
     border: 1px solid black;
+    border-radius: 4% 4% 4% 4%;
     flex-wrap: wrap;
+}
+.box3:hover{
+    background-color:burlywood;
+    transition: 1.5s all ease;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
 }
 .box1 p{
     padding-top: 4rem;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-bottom: 3rem;
+   
 }
 .box1 .iD{
     padding-left: 6rem;
@@ -265,12 +302,7 @@ body{
     padding-left: 5rem;
     padding-top: 1rem;
 }
-.box3 p{
-    padding-top: 4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 3rem;
-}
+
 .box3 .iM{
     padding-left: 6rem;
 }
@@ -279,4 +311,145 @@ body{
     font-size: x-large;
     padding-left: 5rem;
     padding-top: 1rem;
+}
+.box3 p{
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+/* ============================== << FEATURED CARS STARTS >> ================ */
+
+#featured_cars{
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.s_11_header{
+
+    text-align: center;
+    padding-bottom: 4%;
+   
+}
+.s11_headdiv{
+    align-self: center;
+    width: fit-content;
+    margin-left: 43%;
+    font-size: medium;
+    font-weight: 50;
+    color: blue;
+    border-bottom: 2px solid rgb(19, 87, 32);
+}
+.s_11_header p {
+    padding-bottom: 2%;
+}
+
+
+.containers11{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+   gap: 4%;
+}
+.ms_11{
+    
+    height: 30em;
+    width: 45em;    
+    text-align: center;    
+    border: 1px solid black;
+    justify-items: center;
+    padding-top: 3%;
+    margin-right: 8%;
+    border-radius: 1em 1em 1em 1em;
+    }
+.ms_11:hover{
+    background-color: beige;
+    transition: 2s all ease;
+    border-radius: 0px 80px 80px 0px;
+    opacity: 0.8;
+}
+.ms_11cv{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 20%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border: 1px solid black;
+    /* margin-bottom: 20em; */
+ 
+}
+.s11_config{
+    width: 60%;
+    height: 80vh;
+    padding-top: 3em;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.s11_config_head{
+    width: fit-content;
+    border-bottom: 2px solid green;
+    margin-left: 13em;
+}
+.s11_config1{
+    color:green;
+    font-size: xx-large;
+    height: 10%;
+    
+}
+.s11_config2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20%;
+    height: 60%;
+    width: 100%;
+    padding-top: 5em;
+    color: rgb(84, 29, 29);
+}
+
+.s11_config2 p {
+    margin-left: 5em;
+    margin-left: 12em;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0.9px;
+    height: 14rem;
+    width: 20rem;
+    font-size: 1rem;
+    line-height: 1.5em;
+    padding-top: 1.5em;
+    background-color: rgb(86, 90, 79,0.4);
+    color: rgb(116, 32, 32);
+    border-radius: 2em;
+}
+
+.mahindra_thar div h3{
+    margin-left: 20%;
+    font-size: 3rem;
+    padding: 2%;
+    width: fit-content;
+    border-bottom: 2px solid #000;
+    margin-bottom: 1%;
+}
+
+.mahindra_thar{
+    height: 60vh;width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* gap: 10%; */
+}
+.mahindra_thar2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+
 }
